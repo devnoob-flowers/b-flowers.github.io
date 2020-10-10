@@ -1,0 +1,148 @@
+@import url("https://font.googleapis.com/css?family=Montserrat:400,600");
+
+body {
+    background-color: rgb(6, 80, 122);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #848d96;
+}
+
+a {
+    color: #4a92ce;
+}
+
+a:hover {
+    color: #dcdcdc;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 0.75 rem;
+}
+
+.aw-img {
+    height: 80vh;
+    background-image: url("../img/site-photo.jpg");
+    
+    background-size: cover;
+    background-position: center center;
+}
+
+.aw-content-wrapper {
+    overflow: auto;
+}
+.aw-content {
+    padding: 1.5rem;
+    margin: auto;
+}
+
+.aw-name {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.4px;
+    color: #4a92ce;
+}
+
+.aw-tagline {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0;
+    color: #cfcfcf;
+}
+
+.aw-bio {
+    padding: 1.875rem 0rem;
+    font-size: 1.313rem;
+    line-height: 2rem;
+}
+
+.aw-list-headings {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.75rem;
+    margin-bottom: 1.25rem;
+    color: #cfcfcf;
+    letter-spacing: 0.125rem;
+    opacity: 0.75;
+}
+
+.aw-list {
+    margin-bottom: 1.25rem;
+}
+
+.aw-credit {
+    opacity: 0.4;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+}
+
+
+@media (min-width: 320px) {
+    .aw-img {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 375px) {
+    .aw-img {
+        height: 87.5vh;
+    }
+    .aw-name {
+        margin-top: 0rem;
+    }
+}
+
+@media (min-width: 575px) {
+    .aw-content {
+        padding: 3.75rem;
+    }
+    .aw-list {
+        margin-bottom: 2.5rem;
+    }
+    .aw-tagline {
+        font-size: 3rem;
+        line-height: 4rem;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .aw-content {
+        padding: 3.75rem 6.25rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .aw-main-wrapper {
+        width: 100vw;
+        height: 100vh;
+    }
+    .aw-img {
+        height: 100vh;
+    }
+    .aw-content {
+        padding: 3.75rem
+    }
+}
+
+@media (min-width: 1200px) {
+    .aw-content {
+        padding: 3.75rem 2.5rem;
+        max-width: 600px;
+    }
+    .aw-tagline {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .aw-content {
+        padding: 3.755rem 0 rem;
+    }
+}
